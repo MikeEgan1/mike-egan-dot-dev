@@ -27,3 +27,17 @@ response = requests.get('https://www.mikeegan.dev')
 if response.status_code == 200:
   print('No language')
 ```
+
+```javascript
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
+  }
+]
+```
