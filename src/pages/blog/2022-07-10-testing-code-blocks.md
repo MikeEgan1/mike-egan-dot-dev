@@ -10,10 +10,20 @@ tags:
   - python
   - requests
 ---
+
+
 ```python
 import requests
 
 response = requests.get('https://www.mikeegan.dev')
 if response.status_code == 200:
   print('we did it!')
+```
+
+```
+import requests
+
+response = requests.get('https://www.mikeegan.dev')
+if response.status_code == 200:
+  print('No language')
 ```
