@@ -10,8 +10,6 @@ tags:
   - python
   - requests
 ---
-
-
 ```python
 import requests
 
@@ -20,7 +18,7 @@ if response.status_code == 200:
   print('we did it!')
 ```
 
-```
+```python
 import requests
 
 response = requests.get('https://www.mikeegan.dev')
