@@ -38,6 +38,11 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
+                      <Link className="navbar-item" to="https://www.twitter.com/phegangaming">
+                        Twitter, but gaming
+                      </Link>
+                    </li>
+                    <li>
                       <Link className="navbar-item" to="https://www.twitch.tv/phegan">
                         Twitch
                       </Link>
