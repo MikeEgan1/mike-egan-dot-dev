@@ -6,13 +6,13 @@ import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
+require("prismjs/themes/prism.css")
+
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
     <div>
-      <link href="themes/prism.css" rel="stylesheet" />
       <Helmet>
-        <script src="prism.js"></script>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
