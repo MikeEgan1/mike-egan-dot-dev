@@ -62,8 +62,9 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 image: /img/chris-ried-ieic5tq8ymk-unsplash.jpg
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+description: I have a lot of opinions, and I've always wanted a place to share
+  them, a place where I can scream into the void of the internet, this is that
+  place. I am not sure if anyone will ever discover my musings, and I am less
+  sure someone will find any value in them, but I am finding value in writing
+  them, and that's all that matters.
 ---
