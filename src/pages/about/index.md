@@ -3,4 +3,4 @@ templateKey: about-page
 path: /about
 title: About Me
 ---
-### Coming Soon
+I do stuff that I think is great.
